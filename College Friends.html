@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link href="style/css" type="text/css"
+			rel="stylesheet"/>
+        <script type="text/javascript" src="java.js"></script>
+        <title>Home Page</title>
+       <style>
+       *{
+       padding:0;
+       margin:0;
+       box-sizing:border-box;
+       }
+       body{
+       background:#77EBAB;
+       font-family:Sans-Serif;
+       }
+       a{
+       text-decoration:none;
+       color:#fff;
+       
+       }
+       .fullHeader{
+       text-align: center;
+       background:#1A132D;
+       //	background-size:cover;
+       }
+       .fullHeader ul {
+       display:inline-flex;
+       list-style:none;
+       color:#fff;
+       }
+       .fullHeader ul li {
+       width:100%;
+       
+       padding:15px;
+       }
+       //.fullHeader ul li a{
+       text-decoration:none;
+       color:#fff;
+       }
+       .submenu1{
+       display:none;
+       
+       }
+       .fullHeader ul li:hover .submenu1{
+       display:block;
+       position:absolute;
+       background:#2b133f;
+       margin-top:8px;
+       margin-left:15px;
+       color:green;
+       border-radius:20px;
+       }
+       .fullHeader ul li:hover .submenu1:last-child {
+       margin-left:-100px;
+       
+       }
+       .fullHeader ul li:hover .submenu1 ul{
+       display:block;
+       margin:10px;
+       }
+       .submenu1 ul li{
+       padding:20px;
+       }
+       //.submenu1 ul li:last-child{
+       color:yellow;
+       }
+       </style>
+    </head>
+    <body>
+<!---Starts header--->
+   <div class="fullHeader">
+    <UL>
+    	<Li><a href="index.html" >Home</a></Li>
+    	<Li><a href="#" >Primary Life</a>
+    		<div class="submenu1">
+    		<ul>
+    			<li><a href="Primary Friends.html" >Primary Friends</a></li>
+    			<li><a href="Primary Results.html" >Primary Results</a></li>
+    		</ul>
+    	
+    	</Li>
+	    <Li><a href="#" >School Life</a>
+	    	<div class="submenu1">
+	    	<ul>
+	    	<li><a href="School Friends.html" >School Friends</a></li>
+	    	<li><a href="School Results.html" >School Results</a></li>
+	    	</ul>
+	    
+	    </Li>
+   	     	<Li><a href="#" >College Life</a>
+   	     		<div class="submenu1">
+   	     		<ul>
+   	     		<li><a href="College Friends.html" >College Friends</a></li>
+   	     		<li><a href="College Results.html" >College Results</a></li>
+   	     		</ul>
+   	     	</Li>
+    </UL>
+   </div>
+<!---Ends header--->
+    </body>
+</html>
+</a>
+This is College Friends html
